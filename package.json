@@ -1,0 +1,19 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "assignment for Odin Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morciu/restaurant-page.git"
+  },
+  "author": "Marian Pralea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/morciu/restaurant-page/issues"
+  },
+  "homepage": "https://github.com/morciu/restaurant-page#readme"
+}
