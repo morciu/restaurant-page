@@ -1,8 +1,16 @@
 body {
     background-image: url('coffee.jpg');
     background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
 }
 
 #content {
-    
+    height: 100vh;
+    width: min(800px, 100%);
+    background-color: wheat;
 }
