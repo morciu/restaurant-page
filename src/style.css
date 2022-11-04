@@ -13,4 +13,27 @@ body {
     height: 100vh;
     width: min(800px, 100%);
     background-color: wheat;
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+}
+
+#header {
+    background-color: aliceblue;
+    display: grid;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tabs {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+#contentBody {
+    background-color: aqua;
 }
