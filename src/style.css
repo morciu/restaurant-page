@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Ultra';
+    src: url('./Ultra-Regular.ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
 body {
     background-image: url('coffee.jpg');
     background-size: cover;
@@ -20,6 +27,7 @@ body {
 #header {
     background-color: aliceblue;
     display: grid;
+    font-family: 'Ultra', serif;
 }
 
 #title {
