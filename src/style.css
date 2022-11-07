@@ -25,9 +25,11 @@ body {
 }
 
 #header {
-    background-color: aliceblue;
+    background-color: #76B041;
     display: grid;
     font-family: 'Ultra', serif;
+    padding-left: 18px;
+    padding-right: 18px;
 }
 
 #title {
@@ -43,5 +45,16 @@ body {
 }
 
 #contentBody {
-    background-color: aqua;
+    background-color: #074f57;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    color: #eaeaea;
+    padding-left: 18px;
+    padding-right: 18px;
+    align-items: center;
+}
+
+.description {
+    max-width: 60%;
+    place-self: center;
 }
