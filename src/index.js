@@ -1,6 +1,6 @@
 import './style.css';
-import header from './header.js';
-import contentBody from './contentBody.js';
+import header from './components/header.js';
+import contentBody from './components/contentBody.js';
 
 console.log("It's alive!");
 

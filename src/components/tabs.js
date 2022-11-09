@@ -1,11 +1,4 @@
-export default function createHeader() {
-    const header = document.createElement("div");
-    header.id = "header";
-
-    const title = document.createElement('div');
-    title.id = "title";
-    title.innerText = "Kickass Coffee Shop";
-
+export default function tabs() {
     const tabs = document.createElement('div');
     tabs.id = "tabs";
 
@@ -20,8 +13,5 @@ export default function createHeader() {
     tabs.appendChild(menuTab);
     tabs.appendChild(contactTab);
 
-    header.appendChild(title);
-    header.appendChild(tabs);
-
-    return header;
-}
+    return tabs;
+};
