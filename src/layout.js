@@ -3,8 +3,10 @@ import contentBody from './contentBody.js';
 
 export default function layout() {
     const element = document.createElement('div');
-    element.appendChild(header());
-    element.appendChild(contentBody());
+    const header = header();
+    const contentBody = contentBody();
+    element.appendChild(header);
+    element.appendChild(contentBody);
 
     return element;
 }

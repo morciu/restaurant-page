@@ -1,5 +1,6 @@
 import './style.css';
-import layout from './layout.js'
+import header from './header.js';
+import contentBody from './contentBody.js';
 
 console.log("It's alive!");
 
@@ -7,8 +8,8 @@ function component() {
     const content = document.createElement("div");
     content.id = "content";
 
-    const layoutElement = layout();
-    content.appendChild(layoutElement);
+    content.appendChild(header());
+    content.appendChild(contentBody());
 
     return content;
 };
