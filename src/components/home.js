@@ -2,7 +2,7 @@ import homeDescription from './homeDescription.js';
 import homeSchedule from './homeSchedule.js';
 import homeLocation from './homeLocation.js';
 
-export default function createContentBody() {
+export default function loadHome() {
     const content = document.createElement("div");
     content.id = "contentBody";
 
