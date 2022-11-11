@@ -19,7 +19,6 @@ body {
 #content {
     height: 100vh;
     width: min(800px, 100%);
-    background-color: wheat;
     display: grid;
     grid-template-rows: 1fr 5fr;
 }
@@ -36,12 +35,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 32px;
 }
 
 #tabs {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
+    cursor: pointer;
 }
 
 #contentBody {
